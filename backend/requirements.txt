@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+google-generativeai
+spacy
+nltk
+firebase-admin
+pydantic
+joblib
+timexy

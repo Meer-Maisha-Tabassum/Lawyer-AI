@@ -1,0 +1,28 @@
+# ====== General ======
+.DS_Store
+Thumbs.db
+*.log
+
+# ====== Backend ======
+/backend/venv/
+/backend/env/
+/backend/firebase-service-account.json  # Firebase credentials (sensitive)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ====== Frontend ======
+/frontend/node_modules/
+/frontend/env/
+.npm
+
+# ====== Docker ======
+# Ignore if Dockerfile has sensitive data, else keep
+# Dockerfile
+
+# ====== IDE & Temp Files ======
+.vscode/
+.idea/
+*.swp
+*.swo
