@@ -1,28 +1,45 @@
-# ====== General ======
-.DS_Store
-Thumbs.db
-*.log
-
-# ====== Backend ======
+# Python
+# Virtual environment
 /backend/venv/
-/backend/env/
-/backend/firebase-service-account.json  # Firebase credentials (sensitive)
-__pycache__/
 *.pyc
-*.pyo
-*.pyd
+__pycache__/
 
-# ====== Frontend ======
+# Environment variables
+.env
+/backend/.env
+/frontend/.env
+
+# Firebase service account key (sensitive)
+firebase-service-account.json
+
+# Node.js
+# Node modules
 /frontend/node_modules/
-/frontend/env/
-.npm
 
-# ====== Docker ======
-# Ignore if Dockerfile has sensitive data, else keep
-# Dockerfile
+# Production build output
+/frontend/dist/
+/frontend/build/
 
-# ====== IDE & Temp Files ======
+# Package manager files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# Editor/IDE specific files
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Docker
+# Ignore Docker build context files that are not needed in the image
+.dockerignore
+
+# Logs
+*.log
