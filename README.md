@@ -1,6 +1,5 @@
 # LAWYER AI Analyst Suite
 
-![LAWYER AI Logo Placeholder](https://placehold.co/150x50/333/fff?text=LAWYER AI)
 
 ## 🚀 Project Overview
 
